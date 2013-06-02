@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Corte Sem Fila</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn1">Marcar Horário</string>
+    <string name="btn2">Verificar Horários</string>
+    <string name="btn3">Onde Estamos</string>
+    <string name="btn4">Sobre</string>
+    <string name="btn5">Botão 5</string>
+    <string name="btn6">Botão 6</string>
+    <string name="rodape">Todos os direitos reservados.</string>
+    <string name="nometopo">CORTE SEM FILA</string>
+    <string name="desc">StrawHat Sistemas e Entretenimento</string>
+    <string name="splashdesc">Splash Provisoria</string>
+    <string name="voltar">Voltar</string>
+    <string name="marcar">Marcar</string>
+    <string name="txttela1">Escolha o dia:</string>
+    <string name="txttela2">Escolha o horário:</string>
+    <string name="txttela3">Onde Estamos?</string>
+    <string name="txttela4">Desenvolvido na aula de Programação para Dispositivos Móveis.
+
+Por: Ítalo Carvalho Zaina
+
+Curso Tecnologia em Análise e Desenvolvimento de Sistemas
+5º Semestre.</string>
+    <string name="txttela5">Sobre</string>
+    <string name="txttela6">Av. Marrocos, 1167 - Independência - Taubaté-SP</string>
+    <string name="txttela7">Fone: (12) 3025-6488</string>
+    <string name="urlmarcar">"teste: "</string>
+    <string name="title_activity_onde_estamos1">Onde Estamos</string>
+    <string name="btTexto1">Ver no mapa</string>
+    <string name="menuLigar">Ligar para o salão</string>
+
+</resources>

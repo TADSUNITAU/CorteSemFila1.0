@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutTopo"
+    android:layout_width="fill_parent"
+    android:layout_height="55sp"
+    android:layout_gravity="center"
+    android:background="@layout/shape_topo"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/desc"
+        android:gravity="left"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/Topo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingTop="5sp"
+        android:text="@string/nometopo"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+
+</LinearLayout>       <!--  android:layout_weight="0.71" -->

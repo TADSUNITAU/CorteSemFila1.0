@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fundotela1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="@string/txttela5"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<TextView
+    android:id="@+id/address1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:lines="8"
+    android:maxLines="8"
+    android:paddingBottom="20dp"
+    android:text="@string/txttela4" >
+
+</TextView>
+
+</LinearLayout>

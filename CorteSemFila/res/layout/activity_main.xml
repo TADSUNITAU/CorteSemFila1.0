@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+    <!-- Topo -->
+    <include layout="@layout/topo"/>
+
+    <com.google.android.apps.iosched.ui.widget.DashboardLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1.12"
+        android:background="#FFFFFFFF" >
+
+        <!-- Botão 1 -->
+
+		<Button
+		    android:id="@+id/btn1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:drawableTop="@drawable/icone1"
+		    android:onClick="marcarHorario"
+		    android:text="@string/btn1" />
+		
+		<!-- Botão 2 -->
+
+		<Button
+		    android:id="@+id/btn2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:drawableTop="@drawable/icone2"
+		    android:onClick="verHorario"
+		    android:text="@string/btn2" />
+		
+		<!-- Botão 3 -->
+
+		<Button
+		    android:id="@+id/btn3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:drawableTop="@drawable/icone3"
+		    android:onClick="ondeEstamos"
+		    android:text="@string/btn3" />
+		
+		<!-- Botão 4 -->
+
+		<Button
+		    android:id="@+id/btn4"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:drawableTop="@drawable/icone4"
+		    android:onClick="sobre"
+		    android:text="@string/btn4" />
+
+    </com.google.android.apps.iosched.ui.widget.DashboardLayout>
+
+    <!-- Rodape -->
+
+    <include
+        android:layout_height="20dp"
+        layout="@layout/rodape" />
+
+</LinearLayout>
